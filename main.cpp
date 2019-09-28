@@ -148,6 +148,7 @@ std::vector<std::int64_t> divisor(std::int64_t n)
   return res;
 }
 
+// 素因数分解
 std::map<std::int64_t, std::int64_t> prime_factor(std::int64_t n)
 {
   std::map<std::int64_t, std::int64_t> res;
